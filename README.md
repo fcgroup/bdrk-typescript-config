@@ -15,7 +15,7 @@ Then replace the contents of your `tsconfig.json` file with:
 
 ```json
 {
-  "extends": "./node_modules/@quantum-sec/typescript-config"
+  "extends": "@quantum-sec/typescript-config"
 }
 ```
 
