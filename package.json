@@ -13,7 +13,7 @@
     "semantic-release": "~16.0.1"
   },
   "peerDependencies": {
-    "typescript": ">3.7.5"
+    "typescript": ">=3.7.5"
   },
   "publishConfig": {
     "access": "public"
