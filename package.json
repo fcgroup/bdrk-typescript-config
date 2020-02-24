@@ -1,0 +1,21 @@
+{
+  "name": "@quantum-sec/typescript-config",
+  "version": "0.0.0-development",
+  "description": "Baseline TypeScript compiler configuration for Quantum projects.",
+  "main": "tsconfig.json",
+  "author": "Quantum Security Pte. Ltd.",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@quantum-sec/quantum-changelog-convention": "^1.0.0",
+    "@semantic-release/git": "^8.0.0",
+    "eslint": "^5.14.0",
+    "marked": "^0.7.0",
+    "semantic-release": "~16.0.1"
+  },
+  "peerDependencies": {
+    "typescript": "> 3.7.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

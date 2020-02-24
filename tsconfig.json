@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "pretty": true,
+    "sourceMap": true,
+    "strict": false,
+    "target": "es6",
+    "lib": ["es6"],
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "types": [
+      "jasmine",
+      "node"
+    ],
+    "outDir": "../../../dist"
+  },
+  "exclude": [
+    "node_modules/**/*",
+    "dist/**/*"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false
+}
