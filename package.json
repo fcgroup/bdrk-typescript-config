@@ -10,12 +10,7 @@
   "author": "Quantum Security Pte. Ltd.",
   "license": "SEE LICENSE IN LICENSE",
   "devDependencies": {
-    "@quantum-sec/quantum-changelog-convention": "^1.0.0",
-    "@quantum-sec/semantic-release-config": "^1.0.3",
-    "@semantic-release/git": "^8.0.0",
-    "eslint": "^5.14.0",
-    "marked": "^0.7.0",
-    "semantic-release": "~16.0.1"
+    "eslint": "^5.14.0"
   },
   "peerDependencies": {
     "typescript": ">=3.7.5"
