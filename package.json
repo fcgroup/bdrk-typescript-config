@@ -21,6 +21,7 @@
   ],
   "license": "Apache-2.0",
   "devDependencies": {
+    "@cncsc/semantic-release-config": "^1.0.2",
     "eslint": "^5.14.0"
   },
   "peerDependencies": {
