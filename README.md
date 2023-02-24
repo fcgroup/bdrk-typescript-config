@@ -1,6 +1,6 @@
 # TypeScript Config
 
-This repository contains the baseline TypeScript compiler configuration for all Quantum projects
+This repository contains the baseline TypeScript compiler configuration for all CNCSC projects
 that use TypeScript 3.7 or newer.
 
 ## Referencing this Configuration
@@ -8,14 +8,14 @@ that use TypeScript 3.7 or newer.
 You can reference this config by installing the NPM package in your project:
 
 ```bash
-npm install --save-dev @quantum-sec/typescript-config
+npm install --save-dev @cncsc/typescript-config
 ```
 
 Then replace the contents of your `tsconfig.json` file with:
 
 ```json
 {
-  "extends": "@quantum-sec/typescript-config"
+  "extends": "@cncsc/typescript-config"
 }
 ```
 
