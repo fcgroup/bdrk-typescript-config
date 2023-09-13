@@ -15,6 +15,7 @@
     "pretty": true,
     "sourceMap": true,
     "strict": false,
+    "strictNullChecks": true,
     "target": "es6",
     "lib": ["es6"],
     "types": [
