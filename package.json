@@ -1,31 +1,24 @@
 {
-  "name": "@cncsc/typescript-config",
+  "name": "@bdrk/typescript-config",
   "version": "0.0.0-development",
-  "description": "Baseline TypeScript compiler configuration for CNCSC projects.",
+  "description": "Baseline TypeScript compiler configuration for Bedrock projects.",
   "main": "tsconfig.json",
   "repository": {
     "type": "git",
-    "url": "git@github.com:cncsc/typescript-config.git"
+    "url": "git@github.com:fcgroup/bdrk-typescript-config.git"
   },
   "author": {
-    "name": "Cloud-Native Cybersecurity Collective",
-    "email": "info@cncsc.io",
-    "url": "https://www.cncsc.io/"
+    "name": "Bedrock Project",
+    "email": "info@bdrk.dev",
+    "url": "https://bdrk.dev/"
   },
-  "contributors": [
-    {
-      "name": "Armor Defense Inc.",
-      "email": "info@armor.com",
-      "url": "https://www.armor.com/"
-    }
-  ],
   "license": "Apache-2.0",
   "devDependencies": {
-    "@cncsc/semantic-release-config": "^1.0.3",
+    "@bdrk/semantic-release-config": "^3.0.5",
     "eslint": "^8.49.0"
   },
   "peerDependencies": {
-    "typescript": ">=3.7.5"
+    "typescript": ">=5"
   },
   "publishConfig": {
     "access": "public"
