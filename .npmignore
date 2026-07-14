@@ -2,3 +2,4 @@
 .github/
 .releaserc.json
 azure-pipelines.yml
+test/

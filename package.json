@@ -14,8 +14,9 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@bdrk/semantic-release-config": "^3.0.5",
-    "eslint": "^8.49.0"
+    "@bdrk/semantic-release-config": "^4.0.0",
+    "@types/node": "^26.1.1",
+    "typescript": "^7.0.2"
   },
   "peerDependencies": {
     "typescript": ">=5"
